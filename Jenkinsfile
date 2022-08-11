@@ -9,7 +9,6 @@ pipeline{
                 sh 'node --version'
                 sh 'npm --version'
                 sh  'npm get registry'
-                echo
                 echo "Installing Node Modules"
                 sh 'npm install --verbose'
             }
